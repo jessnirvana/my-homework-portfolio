@@ -11,7 +11,9 @@
 .f-large {
   font-size: 35px !important;
 }
-
+body {
+  margin: 33px;
+}
 h1,
 h2,
 h3 {
@@ -25,6 +27,7 @@ h1 {
 
 h2 {
   font-size: 48px;
+  text-align: left;
 }
 
 h3 {
@@ -39,8 +42,8 @@ p {
   font-size: 18px;
   line-height: 1.5;
   text-align: center;
+  text-align: left;
 }
-
 .navigation-links {
   display: flex;
   margin-top: 40px;
@@ -54,8 +57,11 @@ p {
   text-decoration: none;
   text-transform: capitalize;
 }
-
-.contact-link {
+.app-link:hover {
+  color: white;
+}
+.contact-link,
+.app-link {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: white;
@@ -108,12 +114,9 @@ p {
   h2 {
     font-size: 30px;
     text-align: center;
+    margin-top: 20px;
   }
   p {
     text-align: center;
-  }
-  button {
-    margin: 0 auto;
-    display: block;
   }
 }
